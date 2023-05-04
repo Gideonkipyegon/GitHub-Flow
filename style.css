@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    position: center;
 }
 
   .nav {
@@ -12,6 +13,8 @@
     height: 70px;
     margin: 0;
     padding: 20px;
+      vh:100%;
+      vw:100%;
   }
   .nav-list{
     list-style: none;
@@ -19,6 +22,7 @@
     display: flex;
     justify-content: space-between;
     gap: 5rem;
-    margin-right: 5px;
+    margin: 5px;
     padding: 10px;
+      
   }
